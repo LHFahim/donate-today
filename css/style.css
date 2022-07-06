@@ -31,7 +31,7 @@ body {
       rgba(0, 0, 0, 0.5),
       rgba(8, 82, 156, 0.1)
     ),
-    url(/images/donation18.jpg);
+    url(../images/donation18.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -105,7 +105,6 @@ body {
   justify-content: center;
 
   margin: auto auto;
-  /* height: 100px; */
 }
 
 .donate-amount-unit {
@@ -298,13 +297,11 @@ body {
   padding: 15px 50px;
   text-align: center;
   border: none;
-  /* border-radius: 20px; */
+
   background-color: rgba(199, 195, 195, 0.49);
 }
 
 .sub-btn {
-  /* border-radius: 8px; */
-
   padding: 12px 30px 14px;
   color: white;
   background-color: tomato;
