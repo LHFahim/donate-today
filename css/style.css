@@ -214,65 +214,57 @@ body {
   width: 20%;
 }
 
-/* APPEAL SECTION */
-
-.appeal {
+/* REVIEW SECTION */
+.review {
   margin-top: 12%;
   text-align: center;
+}
 
+.reviews {
   display: flex;
+  margin-top: 7%;
 }
 
-.appeal-header {
-  width: 50%;
+.review-item {
+  width: 40%;
+  margin: 0 5% 5%;
 }
 
-.appeal-header-title {
-  margin: 4% 0 5% 12%;
-  font-size: 2rem;
-  font-weight: 900;
+.review-header {
+  margin-bottom: 10px;
 }
 
-.appeal-header-par {
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.6);
-  line-height: 1.5rem;
-  margin: 0 5% 0 15%;
-
-  text-align: justify;
-  font-family: "Roboto", sans-serif;
-}
-
-.appeal-header-par-two {
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.6);
-  line-height: 1.5rem;
-  margin: 5% 5% 0 15%;
-
-  text-align: justify;
-  font-family: "Roboto", sans-serif;
-}
-
-.appeal-image {
-  width: 50%;
-}
-
-#appeal-img {
-  width: 80%;
-  border-radius: 10px;
-}
-
-#contribute-btn {
-  border-radius: 8px;
-
-  padding: 20px 35px;
-  color: white;
-  background-color: tomato;
-  text-decoration: none;
-
+.hr {
+  margin-bottom: 10px;
+  width: 300px;
   position: relative;
-  top: 40px;
-  right: 160px;
+  left: 150px;
+
+  background-color: tomato;
+
+  border: 1px solid tomato;
+  border: none;
+  height: 1px;
+}
+
+.rimage {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.review-item {
+  background-color: rgba(42, 47, 35, 0.096);
+  padding: 2%;
+  border-radius: 20px;
+}
+
+.review-header-title {
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.review-p {
+  line-height: 1.5rem;
 }
 
 /* SUBSCRIPTION SECTION */
@@ -343,3 +335,66 @@ footer {
 .ft-p {
   margin-bottom: 0 0 10px;
 }
+
+/* APPEAL SECTION 
+
+.appeal {
+    margin-top: 12%;
+    text-align: center;
+  
+    display: flex;
+  }
+  
+  .appeal-header {
+    width: 50%;
+  }
+  
+  .appeal-header-title {
+    margin: 4% 0 5% 12%;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  
+  .appeal-header-par {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5rem;
+    margin: 0 5% 0 15%;
+  
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .appeal-header-par-two {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5rem;
+    margin: 5% 5% 0 15%;
+  
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .appeal-image {
+    width: 50%;
+  }
+  
+  #appeal-img {
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  #contribute-btn {
+    border-radius: 8px;
+  
+    padding: 20px 35px;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+  
+    position: relative;
+    top: 40px;
+    right: 160px;
+  }
+
+  */
